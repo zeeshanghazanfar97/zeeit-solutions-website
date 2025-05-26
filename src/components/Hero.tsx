@@ -4,50 +4,23 @@ import { ArrowRight, Mail } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-navy-500 via-navy-600 to-navy-700 text-white py-20 lg:py-32">
-      <div className="absolute inset-0 bg-black/10"></div>
+    <section className="relative bg-white py-20 lg:py-32">
       <div className="container mx-auto px-4 relative z-10">
-        <svg viewBox="0 0 430.51 430.51" xml:space="preserve" className="absolute w-48 h-48 text-white top-2 left-2 z-10">
-            <g>
-                <path fill="currentColor" d="M296.003,284.517l-52.542-30.805c-2.865,0.345-5.734,0.913-8.59,1.73c-13.717,3.937-33.557,15.227-50.186,46.668
-                    c-13.202,24.961-8.33,46.331-4.031,65.187c4.108,18.023,7.354,32.259-4.718,46.5c-1.187,1.399-1.511,3.336-0.845,5.047
-                    c0.419,1.076,1.188,1.952,2.15,2.512c0.571,0.33,1.21,0.551,1.885,0.637c30.535,3.836,76.235-14.17,104.421-62.771
-                    c12.802-22.074,18.3-43.299,15.902-61.38C298.825,293.125,297.653,288.672,296.003,284.517z M244.507,287.847
-                    c-0.941,2.5-2.8,4.482-5.234,5.584c-17.741,8.03-20.915,22.067-21.042,22.662c-0.702,3.69-3.553,6.751-7.244,7.732
-                    c-0.327,0.087-0.659,0.157-0.995,0.212c-1.14,0.182-2.299,0.163-3.441-0.055c-5.418-1.033-8.985-6.277-7.954-11.694
-                    c0.19-1.001,4.985-24.655,32.431-37.078c0.506-0.229,1.027-0.414,1.557-0.556c4.743-1.261,9.654,1.07,11.678,5.542
-                    C245.361,282.63,245.449,285.347,244.507,287.847z"/>
-                <path fill="currentColor" d="M418.939,11.153c-10.538-6.111-24.009-3.033-30.847,7.05c-4.299,6.338-105.41,155.47-118.428,177.916
-                    c-6.509,11.224-13.845,29.443-19.947,46.1l52.542,30.805c11.443-13.576,23.674-29.061,30.275-40.443
-                    c13.17-22.708,92.25-184.284,95.609-191.151C433.5,30.485,429.48,17.264,418.939,11.153z"/>
-                <path fill="currentColor" d="M166.592,341.074c-4.498-1.502-8.881-2.384-13.327-2.657c-0.747-0.046-1.549-0.069-2.383-0.069
-                    c-6.69,0-15.097,1.466-23.227,2.884c-7.245,1.265-14.089,2.457-18.864,2.457c-3.359,0-4.52-0.616-4.895-0.936
-                    c-4.059-5.095,1.807-18.923,4.318-24.849c0.642-1.512,1.148-2.706,1.44-3.559c4.072-11.981,7.063-24.737,1.425-36.843
-                    c-4.687-10.065-15.643-18.076-27.824-20.391c-3.548-0.838-7.62-1.228-12.816-1.228c-4.277,0-8.854,0.271-13.281,0.534
-                    c-4.54,0.27-9.235,0.548-13.731,0.548c-15.464,0-24.366-3.528-29.749-11.769c-9.992-15.865,2.009-44.283,14.332-56.117
-                    c0.758-0.728,0.823-1.918,0.149-2.725c-0.675-0.807-1.857-0.955-2.708-0.337C9.67,197.45-0.778,218.222,0.045,236.531
-                    c0.439,9.764,4.197,23.327,19.612,32.506c8.298,4.94,21.718,5.98,34.696,6.986c12.768,0.989,25.971,2.013,30.04,6.977
-                    c1.066,1.301,1.472,2.876,1.233,4.859c-0.888,9.078-5.293,18.018-9.554,26.661c-8.047,16.327-16.368,33.209-1.986,51.944
-                    c12.631,16.451,29.399,16.451,46.625,16.331c1.41-0.01,2.823-0.02,4.235-0.02c7.515,0,16.196,0.23,24.068,2.972
-                    c5.602,2.171,8.419,6.662,9.737,15.571c1.009,5.462,3.436,9.762,6.657,13c0.471-2.511,1.577-4.904,3.29-6.927
-                    c8.458-9.986,6.803-19.319,2.577-37.812C169.313,360.984,167.138,351.457,166.592,341.074z"/>
-            </g>
-        </svg>
-        <img src="/logo.png" alt="ZeeIT Solutions Logo" className="absolute top-8 left-8 h-32 z-20" />
+        <img src="/logo.png" alt="ZeeIT Solutions Logo" className="h-24 mb-6" />
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
-            <span className="text-cyan-400">ZeeIT</span> Solutions
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-slate-800">
+            <span className="text-blue-600">ZeeIT</span> Solutions
           </h1>
-          <p className="text-xl md:text-2xl lg:text-3xl mb-8 text-gray-200 font-light">
+          <p className="text-xl md:text-2xl lg:text-3xl mb-8 text-slate-600 font-light">
             Empowering Businesses with Scalable Software Solutions
           </p>
-          <p className="text-lg md:text-xl mb-10 text-gray-300 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl mb-10 text-slate-500 max-w-2xl mx-auto">
             We transform your ideas into powerful, scalable software solutions that drive business growth and innovation.
           </p>
-          <Button 
+          <Button
             asChild
             size="lg"
-            className="bg-cyan-400 hover:bg-cyan-500 text-navy-700 font-semibold px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg"
           >
             <a href="mailto:hello@zeeit.dev" className="inline-flex items-center gap-2">
               <Mail className="w-5 h-5" />
@@ -58,7 +31,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="absolute bottom-0 left-0 w-full">
-        <svg className="w-full h-12 text-gray-50" viewBox="0 0 1440 48" fill="currentColor">
+        <svg className="w-full h-12 text-white" viewBox="0 0 1440 48" fill="currentColor">
           <path d="M0,48 L60,40 L120,44 L180,36 L240,42 L300,38 L360,44 L420,40 L480,36 L540,42 L600,38 L660,44 L720,40 L780,36 L840,42 L900,38 L960,44 L1020,40 L1080,36 L1140,42 L1200,38 L1260,44 L1320,40 L1380,36 L1440,42 L1440,48 L0,48 Z"></path>
         </svg>
       </div>
