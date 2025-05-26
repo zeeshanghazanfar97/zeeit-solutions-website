@@ -22,7 +22,9 @@ const ContactForm = () => {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch("https://formspree.io/f/xnndkbkb", {
+      formData.access_key = '896115c2-9cf0-4b6a-a3c7-c04240031db5';
+      // const response = await fetch("https://formspree.io/f/xnndkbkb", {
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
