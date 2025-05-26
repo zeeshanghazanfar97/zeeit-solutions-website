@@ -1,5 +1,5 @@
 
-import { Mail, ExternalLink } from "lucide-react";
+import { Mail, ExternalLink, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,10 +10,19 @@ const Footer = () => {
             <h3 className="text-2xl font-bold mb-4">
               <span className="text-cyan-400">ZeeIT</span> Solutions
             </h3>
-            <p className="text-gray-300 leading-relaxed mb-4 max-w-md">
+            <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
               Empowering businesses with scalable software solutions. We transform ideas into powerful technology that drives growth and innovation.
             </p>
-            <div className="flex items-center gap-4">
+            
+            <div className="space-y-3 mb-6">
+              <div className="text-sm text-gray-300">
+                <div className="font-semibold text-white">ZEEIT TECH SOLUTIONS LTD</div>
+                <div>Company No. 16417245</div>
+                <div>Registered in England and Wales</div>
+              </div>
+            </div>
+
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <a 
                 href="mailto:hello@zeeit.dev" 
                 className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors"
@@ -44,12 +53,27 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">Company</h4>
-            <ul className="space-y-2 text-gray-300">
-              <li><a href="#about" className="hover:text-cyan-400 transition-colors">About Us</a></li>
-              <li><a href="#testimonials" className="hover:text-cyan-400 transition-colors">Testimonials</a></li>
-              <li><a href="#contact" className="hover:text-cyan-400 transition-colors">Contact</a></li>
-            </ul>
+            <h4 className="text-lg font-semibold mb-4">Contact</h4>
+            <div className="space-y-3 text-gray-300">
+              <div className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 mt-1 text-cyan-400 flex-shrink-0" />
+                <div className="text-sm">
+                  <div className="font-medium text-white mb-1">Office Address</div>
+                  <div>45 Fitzroy Street</div>
+                  <div>Fitzrovia, London</div>
+                  <div>W1T 6EB</div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="mt-6">
+              <h5 className="text-white font-medium mb-2">Quick Links</h5>
+              <ul className="space-y-2 text-gray-300 text-sm">
+                <li><a href="#about" className="hover:text-cyan-400 transition-colors">About Us</a></li>
+                <li><a href="#testimonials" className="hover:text-cyan-400 transition-colors">Testimonials</a></li>
+                <li><a href="#contact" className="hover:text-cyan-400 transition-colors">Contact</a></li>
+              </ul>
+            </div>
           </div>
         </div>
 
