@@ -1,4 +1,3 @@
-
 import { Lightbulb, FileText, Code, Rocket } from "lucide-react";
 
 const Process = () => {

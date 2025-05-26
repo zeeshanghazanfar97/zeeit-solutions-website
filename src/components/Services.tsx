@@ -1,4 +1,3 @@
-
 import { Code, Cloud, Users, Database, Smartphone, Settings } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 

@@ -1,4 +1,3 @@
-
 import { Target, Eye, Zap } from "lucide-react";
 
 const About = () => {

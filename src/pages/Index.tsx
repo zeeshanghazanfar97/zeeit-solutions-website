@@ -1,35 +1,21 @@
-
-import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import Process from "@/components/Process";
-import Testimonials from "@/components/Testimonials";
-import About from "@/components/About";
-import Stats from "@/components/Stats";
-import ContactForm from "@/components/ContactForm";
-import Footer from "@/components/Footer";
+import React from "react";
+import Header from "@/components/Header";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <Hero />
-      <div id="services">
-        <Services />
-      </div>
-      <WhyChooseUs />
-      <Process />
-      <Stats />
-      <div id="testimonials">
-        <Testimonials />
-      </div>
-      <div id="about">
-        <About />
-      </div>
-      <div id="contact">
-        <ContactForm />
-      </div>
-      <Footer />
-    </div>
+    <>
+      <Header />
+      <main className="max-w-7xl mx-auto px-6 py-12">
+        <h1 className="text-4xl font-extrabold mb-6 text-gray-900 dark:text-gray-100">
+          Welcome to ZeeIT Solutions
+        </h1>
+        <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl leading-relaxed">
+          Empowering businesses with scalable software solutions, custom software
+          development, IT consulting, and cloud services tailored to your needs.
+        </p>
+        {/* Additional homepage content can go here */}
+      </main>
+    </>
   );
 };
 
