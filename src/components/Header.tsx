@@ -5,7 +5,7 @@ const Header: React.FC = () => {
     <header className="bg-white py-4 px-8 shadow-sm">
       <div className="container mx-auto">
         <img 
-          src="/logo.png" 
+          src="/logo.png?bb" 
           alt="ZeeIT Solutions Logo" 
           className="h-12" 
         />
