@@ -1,4 +1,3 @@
-
 import { Mail, ExternalLink, MapPin } from "lucide-react";
 
 const Footer = () => {
@@ -7,9 +6,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div className="lg:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">
-              <span className="text-cyan-400">ZeeIT</span> Solutions
-            </h3>
+            <div className="flex items-center gap-3 mb-4">
+              <img src="/logo.png" alt="ZeeIT Solutions Logo" className="h-8 w-auto" />
+              <h3 className="text-2xl font-bold">
+                <span className="text-cyan-400">ZeeIT</span> Solutions
+              </h3>
+            </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
               Empowering businesses with scalable software solutions. We transform ideas into powerful technology that drives growth and innovation.
             </p>
