@@ -6,7 +6,6 @@ const Hero = () => {
   return (
     <section className="relative bg-white py-20 lg:py-32">
       <div className="container mx-auto px-4 relative z-10">
-        <img src="/logo.png" alt="ZeeIT Solutions Logo" className="h-24 mb-6" />
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-slate-800">
             <span className="text-blue-600">ZeeIT</span> Solutions
