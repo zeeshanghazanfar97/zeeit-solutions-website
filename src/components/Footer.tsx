@@ -2,8 +2,6 @@
 import { Mail, ExternalLink } from "lucide-react";
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
   return (
     <footer className="bg-navy-800 text-white py-12">
       <div className="container mx-auto px-4">
@@ -41,6 +39,7 @@ const Footer = () => {
               <li><a href="#services" className="hover:text-cyan-400 transition-colors">Custom Software Development</a></li>
               <li><a href="#services" className="hover:text-cyan-400 transition-colors">IT Consulting</a></li>
               <li><a href="#services" className="hover:text-cyan-400 transition-colors">Cloud Solutions</a></li>
+              <li><a href="#services" className="hover:text-cyan-400 transition-colors">Mobile Development</a></li>
             </ul>
           </div>
 
@@ -57,7 +56,7 @@ const Footer = () => {
         <div className="border-t border-navy-600 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © {currentYear} ZeeIT Solutions. All rights reserved.
+              © 2019-2025 ZeeIT Solutions. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">Privacy Policy</a>

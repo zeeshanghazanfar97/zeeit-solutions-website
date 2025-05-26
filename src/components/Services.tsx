@@ -1,5 +1,5 @@
 
-import { Code, Cloud, Users, Zap } from "lucide-react";
+import { Code, Cloud, Users, Database, Smartphone, Settings } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Services = () => {
@@ -7,17 +7,32 @@ const Services = () => {
     {
       icon: Code,
       title: "Custom Software Development",
-      description: "Tailored software solutions built to meet your unique business requirements and scale with your growth."
+      description: "Tailored software solutions built to meet your unique business requirements and scale with your growth. From web applications to enterprise systems."
     },
     {
       icon: Users,
       title: "IT Consulting",
-      description: "Strategic technology guidance to optimize your IT infrastructure and drive digital transformation."
+      description: "Strategic technology guidance to optimize your IT infrastructure and drive digital transformation. Expert advice on tech stack selection and architecture."
     },
     {
       icon: Cloud,
       title: "Cloud Solutions",
-      description: "Secure, scalable cloud architecture and migration services to modernize your business operations."
+      description: "Secure, scalable cloud architecture and migration services to modernize your business operations. AWS, Azure, and Google Cloud expertise."
+    },
+    {
+      icon: Database,
+      title: "Database Management",
+      description: "Database design, optimization, and management services to ensure your data is secure, accessible, and performing at peak efficiency."
+    },
+    {
+      icon: Smartphone,
+      title: "Mobile Development",
+      description: "Native and cross-platform mobile applications that provide seamless user experiences across iOS and Android devices."
+    },
+    {
+      icon: Settings,
+      title: "DevOps & Automation",
+      description: "Streamline your development pipeline with CI/CD implementation, infrastructure automation, and monitoring solutions."
     }
   ];
 
@@ -28,8 +43,8 @@ const Services = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-navy-700 mb-4">
             Our Services
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            We deliver comprehensive technology solutions to accelerate your business success
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            We deliver comprehensive technology solutions to accelerate your business success and drive innovation across all aspects of your digital infrastructure.
           </p>
         </div>
         
