@@ -5,7 +5,7 @@ import { ArrowRight, Mail } from "lucide-react";
 const Hero = () => {
   return (
     <section className="relative bg-gradient-to-br from-navy-500 via-navy-600 to-navy-700 text-white py-20 lg:py-32">
-      div className="relative z-20 flex justify-center py-4">
+      <div className="relative z-20 flex justify-center py-4">
         <img src="/logo.png" alt="ZeeIT Solutions Logo" />
       </div>
       <div className="absolute inset-0 bg-black/10"></div>
