@@ -7,13 +7,11 @@ const Hero = () => {
     <section className="relative bg-gradient-to-br from-navy-500 via-navy-600 to-navy-700 text-white py-20 lg:py-32">
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="container mx-auto px-4 relative z-10">
+        <img src="/logo.png" alt="ZeeIT Solutions Logo" className="h-32 mb-4" />
         <div className="max-w-4xl mx-auto text-center">
-          <div className="flex items-center justify-center mb-6">
-            <img src="/logo.png" alt="ZeeIT Solutions Logo" className="h-20 mr-4" />
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-              <span className="text-cyan-400">ZeeIT</span> Solutions
-            </h1>
-          </div>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
+            <span className="text-cyan-400">ZeeIT</span> Solutions
+          </h1>
           <p className="text-xl md:text-2xl lg:text-3xl mb-8 text-gray-200 font-light">
             Empowering Businesses with Scalable Software Solutions
           </p>
