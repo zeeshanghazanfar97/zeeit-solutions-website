@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,31 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// ZeeIT custom colors
+				navy: {
+					50: '#f0f4f8',
+					100: '#d9e6f2',
+					200: '#b3cde0',
+					300: '#8db4ce',
+					400: '#679bbc',
+					500: '#1e3a8a', // Navy blue
+					600: '#1a2f73',
+					700: '#16235c',
+					800: '#121845',
+					900: '#0e0c2e'
+				},
+				cyan: {
+					50: '#ecfeff',
+					100: '#cffafe',
+					200: '#a5f3fc',
+					300: '#67e8f9',
+					400: '#22d3ee', // Accent cyan
+					500: '#06b6d4',
+					600: '#0891b2',
+					700: '#0e7490',
+					800: '#155e75',
+					900: '#164e63'
 				}
 			},
 			borderRadius: {
