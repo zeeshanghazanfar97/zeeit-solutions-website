@@ -1,19 +1,41 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Mail } from "lucide-react";
+import { ArrowRight, Mail, Settings } from "lucide-react";
 
 const Hero = () => {
   return (
     <section className="relative bg-gradient-to-br from-navy-500 via-navy-600 to-navy-700 text-white py-20 lg:py-32">
       <div className="absolute inset-0 bg-black/10"></div>
+      
+      {/* Navigation Header */}
+      <nav className="absolute top-0 left-0 w-full z-20 py-4">
+        <div className="container mx-auto px-4">
+          <div className="flex justify-end">
+            <Button 
+              asChild
+              variant="ghost"
+              size="sm"
+              className="text-white hover:bg-white/10 hover:text-cyan-400 transition-all duration-300"
+            >
+              <a 
+                href="https://auth.zeeit.dev" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2"
+              >
+                <Settings className="w-4 h-4" />
+                Admin Services
+              </a>
+            </Button>
+          </div>
+        </div>
+      </nav>
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="flex items-center justify-center mb-6">
-            <img src="/logo.png" alt="ZeeIT Solutions Logo" className="h-20 mr-4" />
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-              <span className="text-cyan-400">ZeeIT</span> Solutions
-            </h1>
-          </div>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+            <span className="text-cyan-400">ZeeIT</span> Solutions
+          </h1>
           <p className="text-xl md:text-2xl lg:text-3xl mb-8 text-gray-200 font-light">
             Empowering Businesses with Scalable Software Solutions
           </p>
